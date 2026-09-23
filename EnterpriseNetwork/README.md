@@ -2,6 +2,7 @@
 ### This project found me creating a simulated network in Cisco Packet Tracer, from scratch. This used the skills I'd learnt, regarding configuration, architectures, and best practices.
 ## Showcase
 <img width="1006" height="623" alt="image" src="https://github.com/user-attachments/assets/7acc6158-353c-42ed-802d-6451045c2663" />
+
 ## Main Architecture:
 -Uses a '3-tier' architecture with a core, distribution and access layer.
 -Dual-homed architecture with each core router connecting to a separate ISP router (due to limited interfaces on chosen routers - intention would've been dual-multihomed for full redundancy)
