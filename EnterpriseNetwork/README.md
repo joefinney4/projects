@@ -23,6 +23,7 @@
 -Port Security, DAI and DHCP Snooping has been implemented across access ports.  
 -HSRP used for each VLAN to load balance traffic across switches- i.e. some VLANs use MLSW1 as their default gateway while others use MLSW2. This is synchronized with STP.  
 -All devices protected from unauthorized access by using 'enable secret'- although insecure passwords ('joe') have been used for practicality in lab environment.  
+-Access Controls on edge interfaces on each switch to ensure IP is of desired VLAN
 ## Things to add in the future:
 -GRE tunnelling  
 -IP Phones
